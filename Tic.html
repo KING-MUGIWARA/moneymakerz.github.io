@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money-Earning Tic Tac Toe</title>
+    <link rel="stylesheet" href="Tic.css">
+</head>
+<body>
+    <header>
+        <h1>Money-Earning Tic Tac Toe</h1>
+        <a href="withdrawal.html"><button id="cash" style="margin-left: 1100px;">Cash Out</button></a> <br>
+    </header>
+    <div class="container">
+        <div id="board" class="board">
+            <div class="cell" data-cell="0"></div>
+            <div class="cell" data-cell="1"></div>
+            <div class="cell" data-cell="2"></div>
+            <div class="cell" data-cell="3"></div>
+            <div class="cell" data-cell="4"></div>
+            <div class="cell" data-cell="5"></div>
+            <div class="cell" data-cell="6"></div>
+            <div class="cell" data-cell="7"></div>
+            <div class="cell" data-cell="8"></div>
+        </div>
+        <div id="message" class="message"></div>
+        <div id="betInput" class="bet-input">
+            <label for="betAmount">Enter Bet Amount:</label>
+            <input type="number" id="betAmount" min="100">
+            <button id="startGame">Start Game</button>
+        </div>
+        <div id="balanceDisplay" class="balance-display"><span id="currentBalance"></span></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Money Making Website. All rights reserved.</p>
+    </footer>
+    <script src="Tic.js"></script>
+</body>
+</html>

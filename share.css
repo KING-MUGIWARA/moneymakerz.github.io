@@ -1,0 +1,33 @@
+body {
+    font-family: serif;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+header {
+    background-color: rgb(230, 175, 37);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  

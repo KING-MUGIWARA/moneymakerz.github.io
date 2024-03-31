@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Earning Game</title>
+  <link rel="stylesheet" href="Evens.css">
+</head>
+<body>
+  <header>
+    <h1>Money Earning Game</h1>
+    <p>Guess if the number is Odd or Even to win money!</p>
+    <a href="withdrawal.html"><button id="cash" style="margin-left: 1100px;">Cash Out</button></a> <br>
+  </header>
+  <div class="container">
+    <div class="game">
+      <p>Current Balance: <span id="balance"></span></p>
+      <p>Enter Bet Amount: 
+        <input type="number" id="betAmount" min="100" value="100">
+      </p>
+      <p>Guess: 
+        <select id="guess">
+          <option value="odd">Odd</option>
+          <option value="even">Even</option>
+        </select><br>
+        <button onclick="playGame()" id="playGame">Play</button>
+      </p>
+      <p id="result"></p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Money Making Website. All rights reserved.</p>
+</footer>
+  <script src="Evens.js"></script>
+</body>
+</html>

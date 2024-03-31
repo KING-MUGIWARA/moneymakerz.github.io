@@ -1,0 +1,137 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(230, 175, 37);
+    color:  white;
+    padding: 20px;
+    text-align: center;
+}
+
+#currentBalance{
+    padding-right: 1000px;
+    color: black;
+}
+
+#loginLink {
+    color:  black;
+}
+
+#signupLink {
+    color:  black;
+}
+
+#w {
+    color:  white;
+    font-family: serif;
+}
+
+.topnav {
+    float: right;
+}
+
+.topnav a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+#de {
+    background-color: rgb(230, 175, 37);
+    color:  black;
+    padding: 50px 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 100px;
+    max-width: 69px;
+}
+#de:hover {
+    background-color: #e8d569;
+}
+
+#in {
+    background-color: rgb(230, 175, 37);
+    color: black;
+    padding: 50px 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 100px;
+    max-width: 69px;
+    margin-top: 10px;
+}
+#in:hover {
+    background-color: #e8d569;
+}
+
+#ga {
+    background-color: rgb(230, 175, 37);
+    color: black;
+    padding: 50px 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 100px;
+    max-width: 69px;
+    margin-top: 10px;
+}
+#ga:hover {
+    background-color: #e8d569;
+}
+
+#wi {
+    background-color: rgb(230, 175, 37);
+    color: black;
+    padding: 50px 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:100px 100px;
+    max-width: 69px;
+    margin-top: 10px;
+}
+#wi:hover {
+    background-color: #e8d569;
+}
+
+button {
+    background-color: #4CAF50;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position:static
+    /* bottom: 0;
+    width: 100%; */
+}

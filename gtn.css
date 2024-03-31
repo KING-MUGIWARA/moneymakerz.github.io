@@ -1,0 +1,62 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(230, 175, 37);
+    color:  white;
+    padding: 20px;
+    text-align: center;
+}
+
+#cash{
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 250px;
+    margin: 20px auto;
+    background-color: rgb(230, 175, 37);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: fantasy;
+  }
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: rgb(230, 175, 37);
+    margin-top: 100px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    width: auto;
+}
