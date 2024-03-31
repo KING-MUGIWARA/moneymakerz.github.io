@@ -17,9 +17,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let resultText = "";
 
-        // Check if bet amount is less than 100
-        if (betAmount < 100 || isNaN(betAmount)) {
-            resultText = "Minimum bet amount is ₦100.";
+        // Check if bet amount is less than 50
+        if (betAmount < 50 || isNaN(betAmount)) {
+            resultText = "Minimum bet amount is ₦50.";
         } else if (betAmount > balance) {
             resultText = "You cannot bet more than your current balance.";
         } else {
