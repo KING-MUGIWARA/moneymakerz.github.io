@@ -8,14 +8,14 @@ function updateBalance(amount) {
 }
 
 document.getElementById('shareBtn').addEventListener('click', function() {
-    var url = 'https://moneymakerz.github.io/'; // Your desired link here
+    var url = 'https://king-mugiwara.github.io/moneymakerz.github.io/'; // Your desired link here
     document.getElementById('linkInput').value = url;
     document.getElementById('shareOptions').style.display = 'block';
   });
   
   document.getElementById('whatsappShare').addEventListener('click', function() {
     // Update href attribute for WhatsApp share option
-    var url = 'https://moneymakerz.github.io/'; // Your desired link here
+    var url = 'https://king-mugiwara.github.io/moneymakerz.github.io/'; // Your desired link here
     this.href = 'whatsapp://send?text=' + encodeURIComponent(url);
    // Update balance
    updateBalance(0.1);
@@ -23,7 +23,7 @@ document.getElementById('shareBtn').addEventListener('click', function() {
   
   document.getElementById('instagramShare').addEventListener('click', function() {
     // Update href attribute for Instagram share option
-    var url = 'https://moneymakerz.github.io/'; // Your desired link here
+    var url = 'https://king-mugiwara.github.io/moneymakerz.github.io/'; // Your desired link here
     this.href = 'https://www.instagram.com/share?url=' + encodeURIComponent(url);
       // Update balance
   updateBalance(0.1);
