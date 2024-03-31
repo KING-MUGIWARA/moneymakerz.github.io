@@ -18,15 +18,15 @@ document.addEventListener('DOMContentLoaded', function () {
         let resultText = "";
 
         // Check if bet amount is less than 50
-        if (betAmount < 50 || isNaN(betAmount)) {
-            resultText = "Minimum bet amount is ₦50.";
+        if (betAmount < 20 || isNaN(betAmount)) {
+            resultText = "Minimum bet amount is ₦20.";
         } else if (betAmount > balance) {
             resultText = "You cannot bet more than your current balance.";
         } else {
             // Make it extremely hard for the player to win by basing the guess on the product of two random numbers
             if ((guess === "even" && productIsEven) || (guess === "odd" && !productIsEven)) {
                 balance += betAmount / 100; // Increased win amount
-                resultText = `Congratulations! You won ₦${betAmount / 20}.`;
+                resultText = `Congratulations! You won ₦${betAmount / 10}.`;
             } else {
                 balance -= betAmount; // Increased loss amount
                 resultText = `Sorry, you lost ₦${betAmount}.`;
