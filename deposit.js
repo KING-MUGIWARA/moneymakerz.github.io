@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const playGameButton = document.getElementById('ga');
     const codeInput = document.getElementById('code');
     codeInput.addEventListener('input', function() {
-        codeEntered = (codeInput.value == '123LUFFYisAganJA890');
+        codeEntered = (codeInput.value == '123LUFFYis');
         playGameButton.disabled = !codeEntered;
     });
 });
