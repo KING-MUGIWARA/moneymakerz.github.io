@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
 
-        if (isNaN(userGuess) || userGuess < 1 || userGuess > 10) {
-            setMessage("Please enter a valid number between 1 and 10.");
+        if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+            setMessage("Please enter a valid number between 1 and 100.");
             return;
         }
 
