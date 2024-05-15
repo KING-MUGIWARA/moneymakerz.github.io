@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Money Earning Game</title>
   <link rel="stylesheet" href="Evens.css">
 </head>
 <body>
+  <style>
+    body {
+        background-image: url('evens.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
   <header>
     <h1>Money Earning Game</h1>
     <p>Guess if the number is Odd or Even to win money!</p>
@@ -14,7 +23,7 @@
     <div class="game">
       <p>Current Balance: <span id="balance"></span></p>
       <p>Enter Bet Amount: 
-        <input type="number" id="betAmount" min="20" value="20">
+        <input type="number" id="betAmount" min="100" value="100">
       </p>
       <p>Guess: 
         <select id="guess">
