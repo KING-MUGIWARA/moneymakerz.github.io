@@ -1,13 +1,4 @@
-body {
-    font-family: serif;
-    display:contents;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
 header {
-    background-color: rgb(230, 175, 37);
     color: #fff;
     text-align: center;
     padding: 20px 0;
