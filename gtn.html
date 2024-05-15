@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Number Game</title>
     <link rel="stylesheet" href="gtn.css">
 </head>
 <body>
+    <style>
+        body {
+            background-image: url('gtn.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
     <header>
         <h1>Guess the Number Game</h1>
         <a href="withdrawal.html"><button id="cash" style="margin-left: 1100px;">Cash Out</button></a> <br>
     </header>
     <div class="container">
         <p>Current Balance: ₦<span id="balance"></span></p>
-        <p>Enter bet amount: <input type="number" id="betAmount" min="50" max="100000"></p>
-        <p>Guess a number between 1 and 10:</p>
-        <input type="number" id="userGuess" min="1" max="10">
+        <p>Enter bet amount: <input type="number" id="betAmount" min="100" max="100000"></p>
+        <p>Guess a number between 1 and 100:</p>
+        <input type="number" id="userGuess" min="1" max="100">
         <button id="guessBtn">Guess</button>
         <div id="message"></div>
     </div>
