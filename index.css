@@ -3,10 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: white;
+    font-size: large;
 }
 
 header {
-    background-color: rgb(230, 175, 37);
+    /* background-color: rgb(92, 195, 213); */
     color:  white;
     padding: 20px;
     text-align: center;
@@ -14,15 +15,15 @@ header {
 
 #currentBalance{
     padding-right: 1000px;
-    color: black;
+    color:  white;
 }
 
 #loginLink {
-    color:  black;
+    color: white;
 }
 
 #signupLink {
-    color:  black;
+    color: white;
 }
 
 #w {
@@ -54,8 +55,8 @@ main {
 }
 
 #de {
-    background-color: rgb(230, 175, 37);
-    color:  black;
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
     padding: 50px 200px;
     border: none;
     border-radius: 5px;
@@ -68,8 +69,8 @@ main {
 }
 
 #in {
-    background-color: rgb(230, 175, 37);
-    color: black;
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
     padding: 50px 200px;
     border: none;
     border-radius: 5px;
@@ -83,8 +84,8 @@ main {
 }
 
 #ga {
-    background-color: rgb(230, 175, 37);
-    color: black;
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
     padding: 50px 200px;
     border: none;
     border-radius: 5px;
@@ -98,8 +99,8 @@ main {
 }
 
 #wi {
-    background-color: rgb(230, 175, 37);
-    color: black;
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
     padding: 50px 200px;
     border: none;
     border-radius: 5px;
@@ -127,8 +128,8 @@ button:hover {
 }
 
 footer {
-    background-color: goldenrod;
-    color: #fff;
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
     padding: 10px 20px;
     text-align: center;
     position:static
