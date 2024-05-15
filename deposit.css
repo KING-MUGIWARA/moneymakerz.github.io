@@ -2,20 +2,20 @@ body {
   font-family: serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
 }
 
 .container {
   max-width: 600px;
   margin: 50px auto;
-  background-color:rgb(230, 175, 37);
+  background-color: rgba(120, 87, 4, 0.783);
+  color: white;
   padding: 50px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-  background-color: rgb(230, 175, 37);
+  /* background-color: rgb(230, 175, 37); */
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -27,7 +27,7 @@ h1 {
 
 form {
   margin-top: 20px;
-  background-color:rgb(230, 175, 37);
+  /* background-color:rgb(230, 175, 37); */
 }
 
 #ga{
@@ -50,23 +50,29 @@ input[type="number"] {
 }
 
 button {
-  background-color: rgb(69, 66, 66);
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: black;
   color: #fff;
-  padding: 10px 20px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
+  margin-top: 10px;
+  font-size: medium;
 }
 
 button:hover {
-  background-color: #5f625f;
+  background-color: white;
+  color: black;
+  font-size: medium;
 }
 
+
 footer {
-  background-color: rgb(230, 175, 37);
+  background-color: rgba(120, 87, 4, 0.783);
+  color: white;
   margin-top: 200px;
-  color: #fff;
+  /* color: #fff; */
   padding: 10px 20px;
   text-align: center;
+  font-size: large;
 }
