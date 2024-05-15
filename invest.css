@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    background-color: rgb(230, 175, 37);
+    /* background-color: rgb(230, 175, 37); */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -33,7 +33,9 @@ body {
   }
   
   .option {
-    background-color: rgb(230, 175, 37);
+    /* background-color: rgb(230, 175, 37); */
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -49,7 +51,7 @@ body {
   }
   
   .invest-btn {
-    background-color:rgb(230, 175, 37);
+    background-color:rgba(222, 190, 110, 0.361);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -64,7 +66,9 @@ body {
   }
   
   footer {
-    background-color:rgb(230, 175, 37);
+    /* background-color:rgb(230, 175, 37); */
+    font-size: large;
+    background-color: rgba(120, 87, 4, 0.783);
     color: #fff;
     text-align: center;
     padding: 20px 0;
