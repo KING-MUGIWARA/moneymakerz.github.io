@@ -5,7 +5,6 @@ body {
 }
 
 header {
-    background-color: rgb(230, 175, 37);
     color:  white;
     padding: 20px;
     text-align: center;
@@ -35,7 +34,9 @@ h1 {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: rgb(230, 175, 37);
+    /* background-color: rgb(230, 175, 37); */
+    background-color: rgba(120, 87, 4, 0.783);
+    color: white;
 }
 
 .game-option h2 {
@@ -57,11 +58,13 @@ button {
 }
 
 button:hover {
-    background-color: #5b5e61;
+    background-color: white;
+    color: black;
 }
 
 footer {
-    background-color: rgb(230, 175, 37);
+    background-color: rgba(120, 87, 4, 0.783);
+    font-size: large;
     color: #fff;
     text-align: center;
     padding: 20px 0;
