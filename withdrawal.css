@@ -1,12 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    font-size: large;
   }
   
   header {
-    background-color: rgb(230, 175, 37);
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -15,14 +14,18 @@ body {
   .container {
     max-width: 600px;
     margin: 20px auto;
-    background-color: rgb(230, 175, 37);
+    background-color: rgba(120, 87, 4, 0.783);
     padding: 50px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-bottom: 100px;
   }
   
   form {
     margin-top: 20px;
+    background-color: rgba(120, 87, 4, 0.783);
+    font-size: large;
   }
   
   label {
@@ -40,23 +43,27 @@ body {
   }
   
   button {
-    background-color: #4f544f;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: black;
     color: #fff;
-    padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: medium;
   }
   
   button:hover {
-    background-color: #858a86;
+    background-color: white;
+    color: black;
+    font-size: medium;
   }
   
   footer {
-    background-color: rgb(230, 175, 37);
+    background-color: rgba(120, 87, 4, 0.783);
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    font-size: large;
   }
   
