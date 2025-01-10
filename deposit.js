@@ -56,7 +56,7 @@ let currentBalance = parseFloat(localStorage.getItem('currentBalance')) || 0;
 
         // Initialize Paystack inline payment
         const paymentHandler = PaystackPop.setup({
-          key: 'pk_test_717c31979890e580a086b33e5ec399b938a71e54', // Your Paystack public key
+          key: 'sk_live_49a01a6fbc1937bec000c1fe154be878cfe908fd', // Your Paystack public key
           ...paymentParams
         });
 
